@@ -7,5 +7,5 @@ var config = {
         "Nhà Văn:",
         "Khánh họ Dương",
     ],
-    names: ["Khánh", "Thuý"]
+    names: ["Khánh ", "Thuý"]
 }
