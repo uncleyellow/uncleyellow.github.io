@@ -116,6 +116,19 @@ const timer = () => {
 };
 
 const buka = async () => {
+  Swal.fire({
+    title: "Cảm ơn bạn đã tham dự đám cưới của bọn mình.",
+    width: 600,
+    padding: "3em",
+    color: "pink",
+    background: "#fff url(/images/trees.png)",
+    backdrop: `
+      rgba(0,0,123,0.4)
+      url(https://media1.tenor.com/m/zBc1XhcbTSoAAAAC/nyan-cat-rainbow.gif)
+      left top
+      no-repeat
+    `
+  });
   document.getElementById("tombol-musik").style.display = "block";
   audio.play();
   AOS.init();
